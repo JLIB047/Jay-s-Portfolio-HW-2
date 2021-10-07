@@ -1,0 +1,145 @@
+:root {
+    --primary-color: #00154f;
+    --secondary-color: #ffd55a;
+    --teryiary-color: #6dd47e;
+}
+
+header {
+    padding: 10px 15px 20px 25px;
+    background-color: var(--teryiary-color);
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin:0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav{
+    margin: 10px 0;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+}
+
+header nav ul li a {
+    padding: 10px 15px; 
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(var(--primary-color));
+    border-radius: 8px;
+    text-shadow: none;
+    padding: 10px 10px;
+}
+
+footer {
+    background: var(--teryiary-color);
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+footer h2 {
+    color: var(--primary-color);
+    font-size: 30px;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(../assets/images/IMG_0046.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-position: center;
+    padding: 60px;
+}
+
+.hero-start h2{
+    color: var(--secondary-color)
+}
+
+.work {
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    margin: auto;
+    padding-bottom: 50px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    align-content:center;
+}
+
+.work h2 { 
+    font-weight: bold; 
+    font-size: 32px;
+    color: var(--secondary-color);
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.Run-img {
+    max-width: 100%;
+    height:auto;
+    padding: 10px;
+}
+
+.bio img{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.bio {
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+    justify-content: space-around;
+    color:var(--secondary-color);
+    background-color:var(--primary-color);
+}
+
+.bio h2{
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:32px;
+    padding: 0px 10px;
+}
+
+.bio p {
+    padding:0px 10px;
+}
+
+.reach-out{ 
+    color:var(--primary-color);
+    background-color:var(--teryiary-color);
+    width:100%;
+    margin:0 auto;
+    border-radius:8px;
+}
