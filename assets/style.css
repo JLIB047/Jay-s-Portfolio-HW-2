@@ -109,6 +109,17 @@ footer h2 {
     padding: 10px;
 }
 
+.wip:hover {
+    background: var(--secondary-color);
+    border-radius:8px;
+    text-decoration:underline;
+    color:var(--primary-color);
+}
+
+.wip {
+    margin-top:20px;
+}
+
 .bio img{
     max-height: 200px;
     max-width: 200px;
